@@ -1,3 +1,5 @@
+package animals;
+
 public class VeterinarulPrajit {
     public void makeShot(Animal animal)
     {

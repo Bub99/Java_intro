@@ -1,6 +1,8 @@
 public class PersonTest {
 
     public static void main(String[] args) {
+
+
         Person alex = new Person("Alexandru", 20, 175, 10);
         Student andrei = new Student("andrei",25, 180, 100, "A");
 

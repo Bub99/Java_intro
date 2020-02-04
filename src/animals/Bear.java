@@ -1,4 +1,6 @@
-public class Bear extends Animal{
+package animals;
+
+public class Bear implements Animal {
     @Override
     public void makeNoise() {
         System.out.println("mor mor");

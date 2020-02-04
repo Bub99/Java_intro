@@ -1,4 +1,6 @@
-public class Lion extends Animal {
+package animals;
+
+public class Lion implements Animal {
 
     @Override
     public void makeNoise() {
