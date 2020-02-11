@@ -15,7 +15,7 @@ public class OrderArtist {
             BufferedReader file = new BufferedReader(new FileReader("Title.txt"));
 
             String line;
-            TreeSet<Song> songs = new TreeSet<>();
+            HashSet<Song> songs = new HashSet<>();
 
             while((line = file.readLine()) != null)
             {
